@@ -1,0 +1,76 @@
+﻿/* Center the form in the page */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Add some styles to the label elements */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Add some styles to the text input elements */
+input[type="text"],
+input[type="password"] {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+    input[type="text"],
+    input[type="password"]:hover{
+      
+    }
+
+
+
+
+
+
+    /* Add some styles to the login button */
+    #btnLogin {
+        display: block;
+        margin-top: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        font: bold;
+    }
+
+    /* Add some hover effects to the login button */
+    #btnLogin:hover {
+        background-color: #3e8e41;
+        transform: scale(1.05);
+    }
+
+/* Add some styles to the error label */
+#lblError {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: red;
+}
+
+/* Add some styles to the body */
+body {
+    background-color: #f0f0f0;
+}
+
+#btnLogin:hover{
+    background-color:white;
+    color:limegreen;
+}
